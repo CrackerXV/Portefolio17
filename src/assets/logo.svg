@@ -1,0 +1,30 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <!-- Background with a gradient -->
+  <defs>
+    <linearGradient id="backgroundGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B125F;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5A2D91;stop-opacity:1" />
+    </linearGradient>
+    <pattern id="circuitPattern" x="0" y="0" width="10%" height="10%" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="50" height="50" fill="none" />
+      <circle cx="25" cy="25" r="5" fill="#FFFFFF" />
+      <line x1="25" y1="0" x2="25" y2="50" stroke="#FFFFFF" stroke-width="2" />
+      <line x1="0" y1="25" x2="50" y2="25" stroke="#FFFFFF" stroke-width="2" />
+    </pattern>
+  </defs>
+  <rect width="500" height="500" fill="url(#backgroundGradient)" />
+
+  <!-- Circuit-like design -->
+  <rect x="50" y="50" width="400" height="400" fill="url(#circuitPattern)" opacity="0.1" />
+  <path d="M50,50 L450,450 M450,50 L50,450" stroke="#FFFFFF" stroke-width="2" opacity="0.3" />
+
+  <!-- Decorative glowing ring -->
+  <circle cx="250" cy="250" r="180" fill="none" stroke="#FFFFFF" stroke-width="10" opacity="0.5" />
+  <circle cx="250" cy="250" r="150" fill="none" stroke="#FFFFFF" stroke-width="5" opacity="0.7" />
+
+  <!-- The letter "Y" with a tech-inspired style -->
+  <text x="50%" y="50%" font-family="Arial, sans-serif" font-size="200" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central" style="filter: drop-shadow(3px 3px 5px #3B125F);">
+    Y
+  </text>
+</svg>
