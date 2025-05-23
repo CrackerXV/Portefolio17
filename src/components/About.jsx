@@ -47,10 +47,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-          Je suis un étudiant en deuxième année de BTS SIO, passionné par le codage et particulièrement motivé à maîtriser React.
-          J’ai travaillé sur divers projets, explorant des technologies modernes comme JavaScript et ses écosystèmes.
-          Rapide à apprendre et à m’adapter, je m’épanouis dans des environnements collaboratifs, prêt à transformer des idées en applications réelles et évolutives.
-          Connectons-nous pour donner vie à des solutions qui font la différence !
+          Étudiant en deuxième année de BTS SIO, je me passionne pour l’intelligence artificielle et ses applications concrètes.
+          J’ai mené des projets alliant développement web et exploration des bases de l’IA, en m’appuyant sur des langages comme Python et JavaScript.
+          Curieux, autonome et toujours prêt à apprendre, je m’épanouis dans les environnements techniques et collaboratifs.
+          Mon objectif : créer des solutions intelligentes et accessibles. Connectons-nous pour construire ensemble l’IA de demain !
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
