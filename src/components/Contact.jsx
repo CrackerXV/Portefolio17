@@ -121,8 +121,8 @@ const Contact = () => {
             {loading ? "Sending..." : "Envoyer"}
           </button>
           <a
-              href="/src/assets/Yasser_Sanhaji_CV.pdf"
-              download="Yasser_Sanhaji_CV.pdf"
+              href="src/assets/Cv Yasser SANHAJI.pdf"
+              download="Cv Yasser SANHAJI.pdf"
               className='bg-secondary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary text-center sm:ml-auto'
           >
             Télécharger mon CV

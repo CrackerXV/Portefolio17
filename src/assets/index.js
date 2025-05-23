@@ -28,8 +28,13 @@ import iris from "./company/iris.png";
 import jacques_feyder from "./company/jacques_feyder.png";
 
 import shopify_website from "./shopify_website.png";
+import IosCalculatrice from "./IosCalculatrice.png";
+import morpion from "./morpion.png";
 import snake from "./snake.png";
+import BookIn from "./Book'in 2.png";
+import AppBookIn from"./Application Book'in.png"
 import EDev from "./EDev.png";
+import sncf from "./SNCF.png"
 import cgi1 from "./CGI/cgi1.png";
 import cgi2 from "./CGI/cgi2.jpeg";
 import cgi3 from "./CGI/cgi3.jpeg";
@@ -64,7 +69,12 @@ export {
   iris,
   jacques_feyder,
   shopify_website,
+  morpion,
+  IosCalculatrice,
+  BookIn,
+  AppBookIn,
   snake,
+  sncf,
   EDev,
   twitter,
   cgi1, cgi2, cgi3, xcgi1, xcgi2, xcgi3,

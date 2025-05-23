@@ -19,10 +19,16 @@ import {
   jacques_feyder,
   suez,
   snake,
+  morpion,
   EDev,
   threejs,
   iris,
   shopify_website,
+  IosCalculatrice,
+  BookIn,
+  AppBookIn,
+  sncf,
+
   cgi1, cgi2, cgi3,
 } from "../assets";
 
@@ -226,7 +232,7 @@ const projects = [
       },
     ],
     image: snake,
-    source_code_link: "https://github.com/rylesdev/projet_snake",
+    source_code_link: "https://github.com/CrackerXV/snake",
   },
   {
     name: "EDev",
@@ -243,6 +249,79 @@ const projects = [
     ],
     image: EDev,
     source_code_link: "https://github.com/CrackerXV/E-developper_WebSite",
+  },
+  {
+    name: "Morpion",
+    description:
+        "J'ai conçu un jeu de Morpion en Java en appliquant les principes de la programmation orientée objet, avec une interface intuitive permettant à deux joueurs de s'affronter sur une grille dynamique.",    tags: [
+      {
+        name: "Java",
+        color: "text-gold-gradient",
+      }
+    ],
+    image: morpion,
+    source_code_link: "https://github.com/CrackerXV/Morpion",
+  },
+
+  {
+    name: "Calculatrice",
+    description:
+        "J'ai conçu une calculatrice inspirée du style iOS en Java pour Android, en appliquant les principes de la programmation, avec une interface fluide permettant d’effectuer des opérations simples et avancées.",    tags: [
+      {
+        name: "Kotlin",
+        color: "violet-gradient",
+      },
+    ],
+    image: IosCalculatrice,
+    source_code_link: "https://github.com/CrackerXV/calculatrice-java-android-app",
+  },
+  {
+    name: "Formulaire de satisfaction android",
+    description:
+        "J'ai lancé avec succès une boutique en ligne sur Shopify, proposant une gamme de produits sélectionnés avec soin pour répondre aux préférences des clients et améliorer leur expérience d'achat.",    tags: [
+      {
+        name: "Cms",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Plug-Ins",
+        color: "green-text-gradient",
+      },
+    ],
+    image: sncf,
+    source_code_link: "https://github.com/CrackerXV/MySNCF-Survey",
+  },
+  {
+    name: "Book'in",
+    description:
+        "J'ai lancé avec succès une boutique en ligne sur Shopify, proposant une gamme de produits sélectionnés avec soin pour répondre aux préférences des clients et améliorer leur expérience d'achat.",    tags: [
+      {
+        name: "Cms",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Plug-Ins",
+        color: "green-text-gradient",
+      },
+    ],
+    image: BookIn,
+    source_code_link: "https://github.com/CrackerXV/Book-in",
+  },
+  {
+    name: "Application Book'in",
+    description:
+        "J'ai lancé avec succès une boutique en ligne sur Shopify, proposant une gamme de produits sélectionnés avec soin pour répondre aux préférences des clients et améliorer leur expérience d'achat.",    tags: [
+      {
+        name: "Cms",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Plug-Ins",
+        color: "green-text-gradient",
+      },
+    ],
+    image: AppBookIn,
+    source_code_link: "https://github.com/CrackerXV/Application-Book-in",
   },
 ];
 const follow = [
