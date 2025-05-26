@@ -48,7 +48,7 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
           Étudiant en deuxième année de BTS SIO, je me passionne pour l’intelligence artificielle et ses applications concrètes.
-          J’ai mené des projets alliant développement web et exploration des bases de l’IA, en m’appuyant sur des langages comme Python et JavaScript.
+          J’ai mené des projets alliant développement web et orienté objet ainsi que l'exploration des bases de données, en m’appuyant sur des langages comme le C et JavaScript.
           Curieux, autonome et toujours prêt à apprendre, je m’épanouis dans les environnements techniques et collaboratifs.
           Mon objectif : créer des solutions intelligentes et accessibles. Connectons-nous pour construire ensemble l’IA de demain !
       </motion.p>
