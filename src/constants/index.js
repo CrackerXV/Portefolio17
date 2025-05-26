@@ -138,7 +138,7 @@ const experiences = [
       "Expérience en laboratoire : Acquisition des bases en manipulation d'équipements de laboratoire.",    ],
   },
   {
-    title: "Rippeur",
+    title: "Ripeur",
     company_name: "Suez",
     icon: suez,
     iconBg: "#383E56",
