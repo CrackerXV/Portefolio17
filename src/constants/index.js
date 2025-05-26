@@ -276,17 +276,14 @@ const projects = [
     source_code_link: "https://github.com/CrackerXV/calculatrice-java-android-app",
   },
   {
-    name: "Formulaire de satisfaction android",
+    name: "Android Survey",
     description:
-        "J'ai lancé avec succès une boutique en ligne sur Shopify, proposant une gamme de produits sélectionnés avec soin pour répondre aux préférences des clients et améliorer leur expérience d'achat.",    tags: [
+        "J’ai développé un formulaire Android de satisfaction pour la SNCF, dédié aux RER, avec une interface intuitive permettant aux usagers d’évaluer leur expérience en plusieurs critères de satisfaction",    tags: [
       {
-        name: "Cms",
-        color: "white-text-gradient",
+        name: "Kotlin",
+        color: "violet-gradient",
       },
-      {
-        name: "Plug-Ins",
-        color: "green-text-gradient",
-      },
+
     ],
     image: sncf,
     source_code_link: "https://github.com/CrackerXV/MySNCF-Survey",
@@ -294,14 +291,19 @@ const projects = [
   {
     name: "Book'in",
     description:
-        "J'ai lancé avec succès une boutique en ligne sur Shopify, proposant une gamme de produits sélectionnés avec soin pour répondre aux préférences des clients et améliorer leur expérience d'achat.",    tags: [
+
+        "J’ai développé un site de bibliothèque en ligne en PHP et MySQL, avec un système de gestion fluide permettant l’emprunt et la recherche d’ouvrages.",    tags: [
       {
-        name: "Cms",
-        color: "white-text-gradient",
+        name: "php",
+        color: "text-gold-gradient",
       },
       {
-        name: "Plug-Ins",
-        color: "green-text-gradient",
+        name: "sql",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "html",
+        color: "white-text-gradient",
       },
     ],
     image: BookIn,
@@ -310,15 +312,12 @@ const projects = [
   {
     name: "Application Book'in",
     description:
-        "J'ai lancé avec succès une boutique en ligne sur Shopify, proposant une gamme de produits sélectionnés avec soin pour répondre aux préférences des clients et améliorer leur expérience d'achat.",    tags: [
+        "J’ai conçu une application lourde en Java reliée au site de bibliothèque, offrant une interface complète pour gérer les livres, les emprunts et les utilisateurs.",    tags: [
       {
-        name: "Cms",
-        color: "white-text-gradient",
+        name: "java",
+        color: "text-gold-gradient",
       },
-      {
-        name: "Plug-Ins",
-        color: "green-text-gradient",
-      },
+
     ],
     image: AppBookIn,
     source_code_link: "https://github.com/CrackerXV/Application-Book-in",
