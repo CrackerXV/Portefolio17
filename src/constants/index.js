@@ -18,6 +18,7 @@ import {
   monnoyeur,
   jacques_feyder,
   suez,
+  balzac,
   snake,
   morpion,
   EDev,
@@ -138,10 +139,23 @@ const experiences = [
       "Expérience en laboratoire : Acquisition des bases en manipulation d'équipements de laboratoire.",    ],
   },
   {
+    title: "Assistant RH",
+    company_name: "Balzac Intérim",
+    icon: balzac,
+    iconBg: "#383E56",
+    date: "Septembre 2023 - Octobre 2023",
+    points: [
+      "Gestion administrative du personnel : Suivi rigoureux des dossiers salariés, saisie des heures et gestion des contrats pour assurer une administration du personnel fluide et conforme aux exigences légales.",
+      "Communication et écoute active : Réception et traitement des demandes des intérimaires avec professionnalisme, en assurant un dialogue clair et une réponse adaptée à chaque situation.",
+      "Recrutement et sélection des profils : Participation au processus de recrutement en présélectionnant les candidats selon les besoins des clients, garantissant un bon ajustement poste-profil.",
+      "Polyvalence et réactivité : Capacité à jongler entre différentes tâches RH dans un environnement dynamique, en apportant des solutions rapides et efficaces aux urgences quotidiennes.",
+    ],
+  },
+  {
     title: "Ripeur",
     company_name: "Suez",
     icon: suez,
-    iconBg: "#383E56",
+    iconBg: "#E6DEDD",
     date: "Juillet 2023 - Août 2023",
     points: [
       "Endurance physique et résilience : Capacité démontrée à effectuer des tâches exigeantes dans toutes les conditions climatiques, en assurant une collecte et une élimination des déchets ponctuelles.",
@@ -154,7 +168,7 @@ const experiences = [
     title: "Assistant système Informatique",
     company_name: "Monnoyeur",
     icon: monnoyeur,
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     date: "Octobre 2023 - Août 2025",
     points: [
       "Connaissances techniques : Maîtrise de la gestion du matériel, des logiciels et des réseaux.",
@@ -167,7 +181,7 @@ const experiences = [
     title: "BTS SIO Slam",
     company_name: "Iris",
     icon: iris,
-    iconBg: "#383E56",
+    iconBg: "#E6DEDD",
     date: "Octobre 2023 - Avril 2025",
     points: [
       "Nous avons commencé par examiner tous les aspects de l'informatique,",

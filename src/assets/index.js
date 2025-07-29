@@ -24,6 +24,7 @@ import threejs from "./tech/threejs.svg";
 
 import monnoyeur from "./company/monnoyeur.png";
 import suez from "./company/suez.png";
+import balzac from "./company/balzac.png";
 import iris from "./company/iris.png";
 import jacques_feyder from "./company/jacques_feyder.png";
 
@@ -66,6 +67,7 @@ export {
   threejs,
   monnoyeur,
   suez,
+  balzac,
   iris,
   jacques_feyder,
   shopify_website,
