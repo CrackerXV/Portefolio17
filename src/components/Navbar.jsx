@@ -9,24 +9,35 @@ const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [showNavbar, setShowNavbar] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollTop = window.scrollY;
-      setScrolled(scrollTop > 100);
+      const currentScrollY = window.scrollY;
+
+      // Scroll vers le bas = cacher la navbar, vers le haut = afficher
+      if (currentScrollY > lastScrollY && currentScrollY > 100) {
+        setShowNavbar(false);
+      } else {
+        setShowNavbar(true);
+      }
+
+      setScrolled(currentScrollY > 100);
+      setLastScrollY(currentScrollY);
     };
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  }, [lastScrollY]);
 
   return (
       <nav
-          className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-50 transition-all duration-300 ${
+          className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-50 transition-all duration-300 transform ${
               scrolled
                   ? "bg-primary/90 backdrop-blur-sm shadow-md"
                   : "bg-transparent"
-          }`}
+          } ${showNavbar ? "translate-y-0" : "-translate-y-full"}`}
       >
         <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
           <Link
