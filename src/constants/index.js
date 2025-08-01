@@ -54,7 +54,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Futur IA Developpeur",
+    title: "Developpeur logiciel & web",
     icon: web,
   },
   {
@@ -62,7 +62,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Futur Backend Developpeur",
+    title: "Fiable & engagé",
     icon: backend,
   },
   {

@@ -47,10 +47,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-          Étudiant en deuxième année de BTS SIO, je me passionne pour l’intelligence artificielle et ses applications concrètes.
-          J’ai mené des projets alliant développement web et orienté objet ainsi que l'exploration des bases de données, en m’appuyant sur des langages comme le C et JavaScript.
+          Étudiant en deuxième année de BTS SIO, je me passionne pour le développement logiciel et web, avec une approche orientée vers la création de solutions complètes et fonctionnelles.
+          J’ai mené des projets alliant interfaces web, programmation orientée objet et manipulation de bases de données, en utilisant des langages comme JavaScript et C.
           Curieux, autonome et toujours prêt à apprendre, je m’épanouis dans les environnements techniques et collaboratifs.
-          Mon objectif : créer des solutions intelligentes et accessibles. Connectons-nous pour construire ensemble l’IA de demain !
+          Mon objectif : concevoir des logiciels et applications web efficaces, modernes et accessibles. Connectons-nous pour construire ensemble les outils numériques de demain !
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
