@@ -223,7 +223,7 @@ const projects = [
   {
     name: "Shopify",
     description:
-        "J'ai lancé avec succès une boutique en ligne sur Shopify, proposant une gamme de produits sélectionnés avec soin pour répondre aux préférences des clients et améliorer leur expérience d'achat.",    tags: [
+        "J'ai lancé avec succès une boutique en ligne sur Shopify, proposant une gamme de produits sélectionnés avec soin",    tags: [
       {
         name: "Cms",
         color: "white-text-gradient",
@@ -239,7 +239,7 @@ const projects = [
   {
     name: "Snake Game",
     description:
-        "J'ai développé un jeu Snake en suivant des consignes précises, incluant la génération de trois pommes et un multiplicateur de vitesse (x2) pour plus de défi et de variété dans le gameplay.",    tags: [
+        "J'ai développé un jeu Snake en suivant des consignes précises, incluant la génération de trois pommes et un multiplicateur de vitesse",    tags: [
       {
         name: "C++",
         color: "blue-text-gradient",
@@ -251,7 +251,7 @@ const projects = [
   {
     name: "EDev",
     description:
-        "Un portail éducatif qui présente le programme scolaire, les cours disponibles, les collaborations professionnelles, et offre des informations sur les parcours de carrière.",    tags: [
+        "Un portail éducatif qui présente le programme scolaire, les cours disponibles",    tags: [
       {
         name: "Cms",
         color: "white-text-gradient",
@@ -267,7 +267,7 @@ const projects = [
   {
     name: "Morpion",
     description:
-        "J'ai conçu un jeu de Morpion en Java en appliquant les principes de la programmation orientée objet, avec une interface intuitive permettant à deux joueurs de s'affronter sur une grille dynamique.",    tags: [
+        "J'ai conçu un jeu de Morpion en Java en appliquant les principes de la programmation orientée objet",    tags: [
       {
         name: "Java",
         color: "text-gold-gradient",
@@ -280,7 +280,7 @@ const projects = [
   {
     name: "Calculatrice",
     description:
-        "J'ai conçu une calculatrice inspirée du style iOS en Java pour Android, en appliquant les principes de la programmation, avec une interface fluide permettant d’effectuer des opérations simples et avancées.",    tags: [
+        "J'ai conçu une calculatrice inspirée du style iOS en Java pour Android, en appliquant les principes de la programmation",    tags: [
       {
         name: "Kotlin",
         color: "violet-gradient",
@@ -292,7 +292,7 @@ const projects = [
   {
     name: "Android Survey",
     description:
-        "J’ai développé un formulaire Android de satisfaction pour la SNCF, dédié aux RER, avec une interface intuitive permettant aux usagers d’évaluer leur expérience en plusieurs critères de satisfaction",    tags: [
+        "J’ai développé un formulaire Android de satisfaction pour la SNCF, dédié aux RER, avec une interface intuitive",    tags: [
       {
         name: "Kotlin",
         color: "violet-gradient",
@@ -306,7 +306,7 @@ const projects = [
     name: "Book'in",
     description:
 
-        "J’ai développé un site de bibliothèque en ligne en PHP et MySQL, avec un système de gestion fluide permettant l’emprunt et la recherche d’ouvrages.",    tags: [
+        "J’ai développé un site de bibliothèque en ligne en PHP et MySQL, avec un système de gestion fluide permettant l’emprunt",    tags: [
       {
         name: "php",
         color: "text-gold-gradient",
@@ -326,7 +326,7 @@ const projects = [
   {
     name: "Application Book'in",
     description:
-        "J’ai conçu une application lourde en Java reliée au site de bibliothèque, offrant une interface complète pour gérer les livres, les emprunts et les utilisateurs.",    tags: [
+        "J’ai conçu une application lourde en Java reliée au site de bibliothèque, offrant une interface complète pour gérer les livres",    tags: [
       {
         name: "java",
         color: "text-gold-gradient",
